@@ -1,3 +1,3 @@
-# Readme
+# Surround-FE
 
-여기에 리드미를 작성하세요.
+Surround WebApp built with React, TypeScript, PWA + Styled-components, Zustand
