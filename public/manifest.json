@@ -1,0 +1,51 @@
+{
+  "short_name": "서비스명",
+  "name": "서비스명",
+  "description": "서비스에 대한 설명",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "theme_color": "#000000",
+  "background_color": "#ffffff",
+  "categories": [],
+  "lang": "ko-KR",
+  "prefer_related_applications": true,
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon",
+      "purpose": "any"
+    },
+    {
+      "src": "images/maskable_icon_x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "images/screenshot_1.png",
+      "sizes": "1280x720",
+      "type": "image/png"
+    },
+    {
+      "src": "images/screenshot_2.png",
+      "sizes": "1280x720",
+      "type": "image/png"
+    },
+    {
+      "src": "images/screenshot_3.png",
+      "sizes": "1280x720",
+      "type": "image/png"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Home",
+      "url": "/",
+      "description": "Go to home page."
+    }
+  ]
+}
