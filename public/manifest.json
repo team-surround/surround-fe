@@ -12,13 +12,13 @@
   "prefer_related_applications": true,
   "icons": [
     {
-      "src": "app_logo_x192.png",
+      "src": "favicon.ico",
       "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/png",
+      "type": "image/x-icon",
       "purpose": "any"
     },
     {
-      "src": "app_logo_x512.png",
+      "src": "images/app_logo_x512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"
