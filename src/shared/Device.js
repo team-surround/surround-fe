@@ -24,18 +24,19 @@ const PhoneFrame = styled.div`
   ${variables.widthHeight("100%", "100%")}
 
   @media (min-width: 769px) {
-    ${variables.widthHeight("426px", "90%")}
+    ${variables.widthHeight("416px", "100%")}
     ${variables.position("relative", "50%", "null", "null", "70%")};
-    background: url("");
+    background: url("/images/iphone14pro.png");
     background-size: 100% 100%;
     transform: translate(-50%, -50%);
 
     @media (min-width: 1000px) {
-      ${variables.widthHeight("426px", "90%")}
+      ${variables.widthHeight("416px", "100%")}
       ${variables.position("relative", "50%", "null", "null", "75%")};
-      background: url("");
+      background: url("/images/iphone14pro.png");
       background-size: 100% 100%;
       transform: translate(-50%, -50%);
+      z-index: 1000;
     }
   }
 `;
@@ -44,8 +45,8 @@ const WebViewLayout = styled.div`
   position: relative;
   padding: 20px;
   width: 375px;
-  height: calc(100% - 43px);
-  border-radius: 40px;
+  height: calc(100% - 30px);
+  border-radius: 55px;
   background-color: ${(props) => props.theme.style.white};
   overflow: scroll;
 
