@@ -1,7 +1,7 @@
 {
-  "short_name": "서비스명",
-  "name": "서비스명",
-  "description": "서비스에 대한 설명",
+  "short_name": "서라운드",
+  "name": "서라운드",
+  "description": "친구들과 함께 즐기는 무료 음악 스트리밍 서비스",
   "start_url": "/",
   "display": "standalone",
   "orientation": "any",
@@ -12,13 +12,13 @@
   "prefer_related_applications": true,
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "app_logo_x192.png",
       "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon",
+      "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "images/maskable_icon_x512.png",
+      "src": "app_logo_x512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"
@@ -26,17 +26,22 @@
   ],
   "screenshots": [
     {
-      "src": "images/screenshot_1.png",
+      "src": "images/screenshot_login.png",
       "sizes": "1280x720",
       "type": "image/png"
     },
     {
-      "src": "images/screenshot_2.png",
+      "src": "images/screenshot_home.png",
       "sizes": "1280x720",
       "type": "image/png"
     },
     {
-      "src": "images/screenshot_3.png",
+      "src": "images/screenshot_player.png",
+      "sizes": "1280x720",
+      "type": "image/png"
+    },
+    {
+      "src": "images/screenshot_search.png",
       "sizes": "1280x720",
       "type": "image/png"
     }
@@ -45,7 +50,7 @@
     {
       "name": "Home",
       "url": "/",
-      "description": "Go to home page."
+      "description": "홈으로"
     }
   ]
 }
