@@ -7,7 +7,7 @@
   "orientation": "any",
   "theme_color": "#000000",
   "background_color": "#ffffff",
-  "categories": [],
+  "categories": ["entertainment"],
   "lang": "ko-KR",
   "prefer_related_applications": true,
   "icons": [
