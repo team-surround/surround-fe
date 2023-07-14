@@ -2,10 +2,10 @@ import React from "react";
 import styled from "styled-components";
 import variables from "../../styles/variables";
 
-const Splash = ({ isSplashOpen, setIsSplashOpen }) => {
+const Splash = () => {
   return (
     <SplashContainer>
-      <LogoIcon src="" />
+      <LogoIcon src="/images/logo_white.png" />
     </SplashContainer>
   );
 };
@@ -15,11 +15,11 @@ export default Splash;
 const SplashContainer = styled.div`
   ${variables.position("absolute", 0, null, null, 0)}
   ${variables.flex("column", "center", "center")}
-  ${variables.widthHeight("100vw", "100vh")}
-  background-color: ${({ theme }) => theme.style.white};
+  ${variables.widthHeight("100%", "100vh")}
+  background-color: #0C0C0E;
   z-index: 100;
 `;
 
 const LogoIcon = styled.img`
-  width: 180px;
+  width: 44px;
 `;
