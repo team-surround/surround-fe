@@ -1,7 +1,7 @@
 const theme = {
   // MARK: Base Colors
   primary: "#358C5B",
-  secondaryBlue: "#FCFBFA",
+  secondaryBlue: "#589CF8",
   secondaryYellow: "#141514",
 
   // MARK: Primary - Green

@@ -16,7 +16,6 @@ const SplashContainer = styled.div`
   ${variables.position("absolute", 0, null, null, 0)}
   ${variables.flex("column", "center", "center")}
   ${variables.widthHeight("100%", "100vh")}
-  background-color: #0C0C0E;
   z-index: 100;
 `;
 

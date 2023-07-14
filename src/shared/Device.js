@@ -47,7 +47,7 @@ const WebViewLayout = styled.div`
   width: 375px;
   height: calc(100% - 30px);
   border-radius: 55px;
-  background-color: ${(props) => props.theme.style.white};
+  background-color: #0c0c0e;
   overflow: scroll;
 
   @media screen and (max-width: 768px) {
