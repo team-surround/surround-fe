@@ -1,15 +1,28 @@
 const theme = {
-  // MARK: 동일 컬러 내에서 연한 것부터 진한 것까지 순서대로 정렬
-  white: "#FFFFFF",
-  gray1: "#F8F8F8",
-  gray2: "#EEEEEE",
-  gray3: "#B6B6B6",
-  gray4: "#7D7D7D",
-  gray5: "#4C4C4C",
-  black: "#2F2F2F",
-  yellow1: "#FFF4CC",
-  yellow2: "#FFE380",
-  yellow3: "#FFC700",
+  // MARK: Base Colors
+  primary: "#358C5B",
+  secondaryBlue: "#FCFBFA",
+  secondaryYellow: "#141514",
+
+  // MARK: Primary - Green
+  green100: "#DAEDD5",
+  green200: "#B8D6B0",
+  green300: "#BCDBB4",
+  green400: "#79B669",
+  green500: "#1F8505",
+  green600: "#155A03",
+  green700: "#104502",
+  green800: "#0B2E02",
+
+  // MARK: Gray
+  cremeWhite: "#FCFBFA",
+  gray100: "#E5E5E5",
+  gray200: "#CECFCD",
+  gray300: "#C8C8C8",
+  gray400: "#AAAAAA",
+  gray500: "#6E726E",
+  gray600: "#3B3D3B",
+  dark: "#141514",
 };
 
 export default theme;
